@@ -1,0 +1,619 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+    height:50px;
+   margin:5px;
+   width:50%;
+   opacity:0.7;
+   position: fixed;
+    padding:5px;
+background-color: black;
+z-index:8 ;
+}
+
+
+.top-logo{
+   
+   color:white;
+   font-size: 30;
+  
+    
+    
+
+}
+.navigation{
+   display:flex;
+
+   
+}
+nav{
+ 
+    padding:15px;
+  
+    
+    }
+    nav ul{
+    
+    display:flex;
+    margin-left:10px;
+
+    
+    }
+    nav ul li{
+    list-style-type:none;
+    padding-left:20px;
+    margin-left:20px;
+    height:20px;
+    line-height:10px;
+    
+    transition: transform .0.5s;
+    }
+    nav ul li:hover{
+        transform:scale(1.25); 
+        
+    }
+    nav ul li a{
+    
+    color:white;
+    text-decoration:none;
+    
+    }
+    nav ul li a:hover{
+        color:blue;
+      
+        
+    }
+.banner{
+    margin-top:10px;
+    margin:5px;
+    height:100%;
+}
+.banner img{
+    height:100%;
+    width:100%;   
+    opacity:0.7;
+}
+.text{
+   
+
+        height: 10%;
+    
+        width: 200px;
+    
+        font-size:50px;
+    
+        font-family: 'Times New Roman', Times, serif;
+    
+        margin-left: 50px;
+    
+        margin-top: -75px;
+    
+        color: black;
+    
+    
+}
+
+.about{
+    
+    margin:5px;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    opacity:0.6;
+   
+  
+   
+   
+
+    
+}
+.about img{
+    
+    margin:10px;
+   
+    height:550px;
+ 
+
+}
+.text-block{
+    
+    margin-left: 200px;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    width:40%;
+    margin:10px;
+    
+}
+
+p{
+
+    padding-top:30px;
+
+}
+
+
+
+
+.text-block h1{
+
+    text-align: center;
+
+    font-family: 'Times New Roman', Times, serif;
+
+   padding-top: 10%;
+
+    font-size: 50px;
+
+    font-weight: 500;
+
+}
+.text-block h3{
+    padding-top:15px;
+}
+
+
+
+.text-block p
+{
+
+    padding-top: 10%;
+
+    line-height: 30px;
+
+    font-size: 18px;
+
+    text-align: left;
+
+}
+
+
+.menu{
+
+    display: flex;
+    
+    justify-content: space-around;
+    margin:5px;
+    margin-top: 10px;
+    background-color: black;
+    opacity:0.6;
+    color:white;
+
+   
+
+
+}
+
+.menu1{
+ 
+    padding-left:70px;
+    font-size: 20px;
+    color:black;
+    width:40%;
+    margin:10px;
+}
+.menu1 h2{
+    color:white;
+}
+.menu img{
+    
+    margin:10px;
+   
+    height:500px;
+ 
+  
+}
+.menu .menu1 h3, h4, h5, h6, h6{
+
+    font-size: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-weight: 200;
+
+    padding-top: 40px;
+    color:white;
+
+}
+
+
+
+
+.menu .menu1 .p1, .p2, .p3, .p4, .p5{
+
+    color: white;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+
+    padding-top: 10px;
+
+    letter-spacing: 1px;
+
+}
+
+.contact
+
+{
+
+    height: 800px;
+
+    width: auto;
+
+   margin-top:10px;
+background-color:rgb(78, 78, 113);
+opacity:0.6;
+margin:5px;
+ 
+
+}
+
+
+
+
+.contact .contact-1
+
+{
+
+ 
+ color:white;
+  margin-left:8%;
+
+   padding-top: 50px;
+
+   line-height: 1.5;
+
+}
+
+
+
+
+.contact-1 h1
+
+{
+
+    font-size: 36px;
+
+    font-family: "Playfair Display";
+
+    letter-spacing: 5px;
+
+    font-weight: 400;
+
+}
+
+
+
+
+.contact-1 .catering
+
+{
+
+    font-weight: bolder;
+
+    color: white;
+
+    font-size: 18px;
+
+}
+
+
+
+
+.contact-1 form input
+
+{
+
+    width:800px;
+
+    height: 30px;
+
+    border: transparent;
+
+    border-bottom: 1px solid gray;
+
+}
+
+
+
+
+.contact-1 button
+
+{
+
+    height: 40px;
+
+    width: 200px;
+
+    font-size: 15px;
+
+}
+
+
+
+
+footer
+
+{
+
+    height: 100px;
+
+    width: auto;
+
+    background-color: #f1f1f1;
+
+   
+
+   
+
+}
+
+
+
+
+footer p
+
+{
+
+    color: black;
+
+    text-align: center;
+
+    padding-top: 40px;
+
+
+}
+.box{
+    width:100px;
+    opacity:0.6;
+    height:100px;
+    background-color:pink;
+    border:2px;
+    border-radius:30%;
+    right:10px;
+    text-align:center;
+    padding:10px;
+    bottom:10px;
+    position:fixed;
+    color:white;
+    line-height:70px;
+    z-index: 9;
+ 
+    }
+    
+    .box a {
+    text-decoration:none;
+    }
+    
+::-webkit-scrollbar{
+    display:none;
+}
+@media only screen and (max-width:400px){
+    .top-logo{
+   
+        color:white;
+        font-size: 10;
+       
+         
+         
+     
+     }
+    .navigation{
+        display:none;
+    }
+    .about{
+        flex-wrap:wrap;
+        margin-top:10px;
+        background-color: white;
+    
+    }
+    .about img{
+        display:none;
+    }
+    .text-block{
+        text-align: center;
+     width:100%;
+        font-size:10;
+        color:black;
+    }
+    .menu{
+        flex-wrap:wrap;
+        margin-top:10px;  
+        margin: right 30px; 
+        background-color: white;
+    }
+    .menu img{
+        display:none;
+    }
+
+    .menu1{
+        text-align: center;
+        width:100%;
+           font-size:15; 
+           margin-right: 20px; 
+         
+         
+    }
+    .menu .menu1 .p1, .p2, .p3, .p4, .p5{
+        color:black;
+        
+    }
+    .menu .menu1 h2,h3, h4, h5, h6, h6{
+        color:black;
+    }
+    .contact{
+     height:800px;
+     margin-top:10px;
+     
+    
+    }
+    .contact .contact-1{
+        height:100vh;
+        width:100%;
+        margin-left:1%;
+        padding-top:100px;
+        line-height:1.5
+    }
+    .contact .contact-1 form input{
+        width:400px;
+    }
+  
+    .box{
+        display:none;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .top-logo{
+   
+        color:white;
+        font-size: 20;
+       
+         
+         
+     
+     }
+    .navigation{
+        display:none;
+    }
+    .about{
+        flex-wrap:wrap;
+        margin-top:10px;
+        background-color: white;
+    
+    }
+    .about img{
+        display:none;
+    }
+    .text-block{
+        text-align: center;
+     width:100%;
+        font-size:10;
+        color:black;
+    }
+    .menu{
+        flex-wrap:wrap;
+        margin-top:10px;  
+        margin: right 30px; 
+        background-color: white;
+    }
+    .menu img{
+        display:none;
+    }
+
+    .menu1{
+        text-align: center;
+        width:100%;
+           font-size:15; 
+           margin-right: 20px; 
+         
+         
+    }
+    .menu .menu1 .p1, .p2, .p3, .p4, .p5{
+        color:black;
+        
+    }
+    .menu .menu1 h2,h3, h4, h5, h6, h6{
+        color:black;
+    }
+    .contact{
+     height:800px;
+     margin-top:10px;
+     
+    
+    }
+    .contact .contact-1{
+        height:100vh;
+        width:100%;
+        margin-left:1%;
+        padding-top:100px;
+        line-height:1.5
+    }
+    .contact .contact-1 form input{
+        width:400px;
+    }
+  
+    .box{
+        display:none;
+    }
+}
+@media only screen and (max-width:800px){
+    .navigation{
+        display:none;
+    }
+    .about{
+        flex-wrap:wrap;
+        margin-top:10px;
+        background-color: white;
+    
+    }
+    .about img{
+        display:none;
+    }
+    .text-block{
+        text-align: center;
+     width:100%;
+        font-size:10;
+        color:black;
+    }
+    .menu{
+        flex-wrap:wrap;
+        margin-top:10px;  
+        margin: right 30px; 
+        background-color: white;
+    }
+    .menu img{
+        display:none;
+    }
+
+    .menu1{
+        text-align: center;
+        width:100%;
+           font-size:15; 
+           margin-right: 20px; 
+         
+         
+    }
+    .menu .menu1 .p1, .p2, .p3, .p4, .p5{
+        color:black;
+        
+    }
+    .menu .menu1 h2,h3, h4, h5, h6, h6{
+        color:black;
+    }
+    .contact{
+     height:800px;
+     margin-top:10px;
+     
+    
+    }
+    .contact .contact-1{
+        height:100vh;
+        width:100%;
+        margin-left:1%;
+        padding-top:100px;
+        line-height:1.5
+    }
+    .contact .contact-1 form input{
+        width:400px;
+    }
+  
+    .box{
+        display:none;
+    }
+}
